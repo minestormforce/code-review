@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Coding with Alex</title>
+</head>
+
+<body>
+  <table class="layout">
+    <tr>
+      <td colspan="4" class="header-banner">
+        <h1>Coding with Alex and Friends</h1>
+        <p><i>Featuring Alex... and friends!</i></p>
+      </td>
+    </tr>
+    <tr>
+      <td class="sidebar">
+        <h3>Navigation</h3>
+          <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="friends.html">The Friends</a></li>
+          </ul>
+          <br>
+      </td>
+
+      <td class="main-content">
+        <p><a href="dashboard.html">&#8617 Return to Dashboard</a></p>
+        <h2>Lesson 1: Nested If Statements and Error Checking</h2>
+          <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/q1mpNFXCVn8"
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe>
+        <p>Have you ever heard of matryoshka dolls? They are similar in a way to nested if statements. In order to reach the inside doll, you have to open up the outside ones first. This is just like nested if statements where you must meet the condition of the parent statement before getting to the nested statement.</p>
+        <div style="text-align: center">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvjCpGnrtoM05daRSLjakW4FbVCZ1kEt4kW3ihCQGnVw&s" width="500" height="150px">
+        </div>
+        <p>Something else you can do with if statements is error checking. You have probably been declaring variables as “int” and asking for user input for a while now, but what if the user inputs a decimal number, or even a character. Your program will end up crashing. To fix this, you can implement error checking. In this scenario, you can use “if (console.hasNextInt()) {}” to check if the user enters an integer, and then if they don’t you can apply an else statement. It is always advised to add error checking to your code. Keep in mind, there is no hasNextChar().</p>
+        <table style="border: 1px solid black; width: 100%; text-align: left;">
+          <tr style="background: rgba(0, 0, 0, 0.2)">
+            <th>Method</th>
+            <th>Descprition</th>
+          </tr>
+          <tr>
+            <th>hasNext()</th>
+            <th>Checks if something was typed.</th>
+          </tr>
+          <tr>
+            <th>hasNextBoolean()</th>
+            <th>Checks if true or false was typed.</th>
+          </tr>
+          <tr>
+            <th>hasNextByte()</th>
+            <th>Checks for a byte (re-visit variables unit)</th>
+          </tr>
+          <tr>
+            <th>hasNextShort()</th>
+            <th>Checks for a short.</th>
+          </tr>
+          <tr>
+            <th>hasNextInt()</th>
+            <th>Checks for an integer.</th>
+          </tr>
+          <tr>
+            <th>hasNextLong()</th>
+            <th>Checks for a long.</th>
+          </tr>
+          <tr>
+            <th>hasNextFloat()</th>
+            <th>Checks for a float.</th>
+          </tr>
+          <tr>
+            <th>hastNextDouble()</th>
+            <th>Checks for a double.</th>
+          </tr>
+        </table>
+        <br>
+        <div style="text-align: right"><p><a href="nestedExercise.html">&#8618 Go to Exercise 1</a></p></div>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
